@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 
-
-
-
 body {
 	background-color:#252c5d;
 	text-align: center;
@@ -16,6 +13,11 @@ body {
 }
 
 .stonk-text{
+	color: #d1d3da;
+	text-shadow: -1px 0 #ca1e2e, 0 1px #ca1e2e, 1px 0 #ca1e2e, 0 -1px #ca1e2e;
+}
+
+.stonk-caption{
 	color: #d1d3da;
 	text-shadow: -1px 0 #ca1e2e, 0 1px #ca1e2e, 1px 0 #ca1e2e, 0 -1px #ca1e2e;
 }
@@ -254,7 +256,7 @@ input[type=checkbox]{
 .menu {
  display:none;
  position: absolute;
- background-color:teal;
+ background-color: #629ac2;
  right: 0;
  left: 0;
  text-align: center;
